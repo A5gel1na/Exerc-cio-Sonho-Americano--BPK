@@ -159,90 +159,16 @@ body {
 .caixa-3{
     text-align: center;
     border: solid 2px black;
-    width: 25%;
-    min-width: 150px;
-    padding-right: 10px;
-    padding-left: 10px;
-    min-height: 280px;
+    float: left;
+}
+
+.declinio{
+    color: rgb(89, 4, 89);
+    font-size: 28px ;
 }
 
 .caixa-declinio{
-   border: 2px solid black; 
-   width: 35%; 
-    min-width: 150px;
-   padding: 4px; 
-   margin-left: 30px;
-   margin-right: 5px; 
-   min-height: 280px;
-   color: rgb(89, 4, 89);
-    font-size: 27px ;
-    text-align: right;
-}
-
-.caixa-disparidade{
-   border: 2px solid black; 
-   width: 35%; 
-    min-width: 150px;
-   padding: 4px; 
-   margin-left: 30px;
-   margin-right: 5px; 
-   min-height: 280px;
-   color: rgb(213, 117, 66);
-    font-size: 27px;
-    text-align: left;
-}
-
-.caixa-millenials{
-    background-color: rgb(196, 226, 249);
-    border: solid 2px black;
-    width: 45%;
-    font-family: Arial, Helvetica, sans-serif;
-    min-width:100px;
-    margin-right: 20px;
-}
-
-.millennials-titulo{
-    text-decoration: underline;
-    color: rgb(213, 117, 66);
-    text-align: right;
-    font-size: 30px;
-}
-
-.millenials{
-    font-size: 25px;
-    text-align: center;
-}
-
-.caixa-geracaoX{
-    border: solid 2px black;
-    width: 55%;
-    min-width: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(243, 190, 161);
-}
-
-.geracao-titulo{
-    color: rgb(72, 146, 202);
-    font-size: 30px;
-    text-align: left;
-    text-decoration: underline;
-}
-
-.texto-geracao{
-    font-size: 25px;
-    text-align: right;
-}
-
-.caixa-geracaoY{
     border: black 2px solid;
-    background-color: rgb(186, 242, 195);
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    min-width: 100px;
-}
-
-.titulo-geracaoZ{
-    color: rgb(213, 117, 66);
-    text-decoration: underline;
-    font-size: 30px;
+    float: left;
+    text-align: right;
 }
